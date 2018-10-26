@@ -1,0 +1,68 @@
+  /* style.css */
+body{
+  color: yellow;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+h1{
+  font-family:'Charmonman', cursive;
+  color: white;
+  font-weight: bolder;
+  font-size: 120px;
+}
+h2 {
+  font-family: Calibri;
+  color: Black;
+  font-weight: bold;
+  font-size: 20px;
+}
+h3 {
+  font-family: Calibri;
+  color: WHITE;
+  font-weight: lighter; 
+  font-size: 15px;
+}
+h4 {
+  font-family: Calibri;
+  color: WHITE;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+ 
+#Banner {
+  background-image: url("https://picsum.photos/1000/600/?random");
+  background-size: cover;
+  height: 72vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+#Banner div p {
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  font-family:'Charmonman', cursive;
+}
+
+.card {
+  padding: 20px;
+  color: rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+#Footer {
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+
+#Footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
